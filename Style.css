@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: "Poppins" ,sans-serif;
+
+
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    display:flex;
+    background-color:antiquewhite ;
+    border-radius: 24px;
+    padding:25px;
+    max-width: 370px;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    
+} 
+
+.image{
+    
+    height:150px;
+    width:150px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding:3px;
+}
+
+.image .prof-image{
+  height:100%;
+  width:100%;
+   border-radius: 50%;
+  object-fit: cover;
+  object-position: bottom; 
+  border:3px solid white;
+}
+.profile-card .text-data{
+    display:flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile-card .media-buttons{
+    display:flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.media-buttons .link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: blue;
+    height:34px;
+    width:34px;
+    border-radius: 50%;
+    margin:0 8px;
+    text-decoration: none;
+}
+.profile-card .buttons{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.buttons .button{
+    font-size: 14px;
+    font-weight:400;
+    border:none;
+    border-radius: 120px;
+    background-color: blue;
+    color:white;
+    padding: 8px 24px;
+    margin:0 10px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.buttons .button:hover{
+    background-color:white ;
+    color:black;
+}
+.profile-card .like-buttons{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.like-buttons .data{
+    display:flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.data i{
+    font-size: 18;
+    margin-right:6px ;
+}
+
